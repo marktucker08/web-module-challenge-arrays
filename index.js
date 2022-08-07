@@ -90,10 +90,12 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-  /*your code here*/
+function addFlavor(flavorsArray, newFlavor) {
+  flavorsArray.unshift(newFlavor)
+  return(flavorsArray)
  }
 
+ console.log(addFlavor(originalFlavors, "Rainbow Sherbert"))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
