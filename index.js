@@ -91,11 +91,11 @@ Use the addFlavor function below to do the following:
 
 
 function addFlavor(flavorsArray, newFlavor) {
-  flavorsArray.unshift(newFlavor)
-  return(flavorsArray)
+  flavorsArray.unshift(newFlavor);
+  return(flavorsArray);
  }
 
- console.log(addFlavor(originalFlavors, "Rainbow Sherbert"))
+ console.log(addFlavor(originalFlavors, "Rainbow Sherbert"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -110,10 +110,12 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
- /*your code here*/
+function removeLastFlavor(flavorsArray){
+ flavorsArray.pop();
+ return(flavorsArray);
 }
 
+console.log(removeLastFlavor(originalFlavors));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
